@@ -103,7 +103,7 @@ function App() {
 
   async function reviewCode() {
     const response = await axios.post(
-      "http://code-review-backend-ten.vercel.app/ai/get-response/",
+      "https://code-review-backend-ten.vercel.app/ai/get-response/",
       { code }
     );
     setReview(response.data);
